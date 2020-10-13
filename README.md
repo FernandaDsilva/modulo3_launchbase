@@ -1,12 +1,6 @@
 
 
-# BootCamp LauchBase - Fase 2 - Rocketseat 🚀
-
-- Web page com HTML, CSS e JS.
-
-## Portifólio
-
-Projeto realizado pela 🚀Rocketseat🚀 no bootcamp LauchBase.
+# BootCamp LauchBase - Fase 3 - Rocketseat 🚀
 
 ## 🚀 Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando as seguintes tecnologias
@@ -17,6 +11,10 @@ PostgresSQL
 Nunjucks
 HTML
 CSS
+
+## Portifólio
+
+Projeto realizado pela 🚀Rocketseat🚀 no bootcamp LauchBase.
 
 ## :memo: Licença
 
