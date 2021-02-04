@@ -1,6 +1,3 @@
-
-
-
 const express = require('express')
 const nunjucks = require('nunjucks')
 
@@ -20,7 +17,7 @@ nunjucks.configure("views", {
 server.get("/", function (req, res) {
 
     const about = {
-        avatar_url: "https://media-exp1.licdn.com/dms/image/C4E03AQFpnxn6QJ3MDw/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=Vz8jbMswYDBmXmHezUtlnjxUFtk-mN_7qRJydSR7vCc",
+        avatar_url: "https://media-exp1.licdn.com/dms/image/C4E03AQFpnxn6QJ3MDw/profile-displayphoto-shrink_200_200/0/1599800937695?e=1617840000&v=beta&t=8iHBjixg2RHkcr9MpINHS6GXf0zwjzZpuK9sj4nRE4g",
         name: "Fernanda Dias",
         role: "Developer Front-End",
         description: 'Graduated in Systems Analysis and Development at Unopar. My goal is to transform layouts into code, using HTMl, CSS, JavaScript. Student of Rocketseat: GoStack Bootcamp. Training around techs, such as: Node.js, React.js, React Native. Usage of libraries like Express, Adonis, Mongoose, Sequelize, Json Web Token, Multer, Bee Queue (Redis). Usage of databases, such as PostgreSQL, MongoDB and Redis. I currently work as a sales assistant at <a href="https://casashopdecor.com.br" target="_blank">CasaShopDecor</a> and front end developer at studio <a href="https://instagram.com/pina.criacao_" target="_blank">Piná</a>.',
@@ -53,5 +50,5 @@ server.get("/video", function (req, res) {
 })
 
 server.listen(5000, function () {
-    console.log("Server Is Running")
+    console.log("http://127.0.0.1:5000/ Is Running")
 })
